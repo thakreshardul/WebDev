@@ -1,0 +1,6 @@
+[submodule "webdev"]
+	path = webdev
+	url = https://github.com/thakreshardul/WebDev.git
+[submodule "web-dev-template"]
+	path = web-dev-template
+	url = https://github.com/jannunzi/web-dev-template.git
