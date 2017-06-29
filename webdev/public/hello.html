@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to HTML</title>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        h2#introHtml {
+            color: blue;
+            background-color: yellow;
+        }
+
+        .blueFg{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Introduction to HTML</h1>
+    <h2 id="introHtml">Intro to HTML Tags</h2>
+    <p class="blueFg">
+        Paragraphs........They have opening
+
+        and a closing tags.
+    </p></header>
+
+    <h2>List Elements</h2>
+    <h3 class="blueFg">Ordered</h3>
+    <ol>
+        <li>Course 1</li>
+        <li>Course 2</li>
+        <li>Course 3</li>
+    </ol>
+    <h3 class="blueFg">Unordered</h3>
+    <ul>
+        <li>Java</li>
+        <li>C#</li>
+        <li>HTML</li>
+    </ul>
+
+    <h2>Tabular data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Last Name</th>
+                <th>First Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wonderland</td>
+                <td>Alice</td>
+            </tr>
+            <tr>
+                <td>Thakre</td>
+                <td>Shardul</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Front Page</th>
+                <th>Event</th>
+                <th>To Page</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Login Page</td>
+                <td>Register</td>
+                <td>Register Page</td>
+            </tr>
+            <tr>
+                <td>Login</td>
+                <td rowspan="2">Profile Page</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Register Page</td>
+                <td>Register</td>
+            </tr>
+            <tr>
+                <td>Cancel</td>
+                <td>Login Page</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Horizontal Lists</p>
+    <ol class="horizontal">
+        <li>Login</li>
+        <li>Register</li>
+        <li>Profile</li>
+    </ol>
+
+    <form method="post" action="/path/to/service">
+
+        <label for="firstName">First Name</label>
+        <input name="firstName" id="firstName" type="text" placeholder="Alice" class="form-control">
+
+        <label for="lastName">Last Name</label>
+        <input name="lastName" id="lastName" type="text" placeholder="Wonderland" class="form-control">
+
+        <label for="email">Email ID</label>
+        <input name="email" id="email" type="email" placeholder="alice@wonderland.com" class="form-control">
+
+        <label for="dob">Date od Birth</label>
+        <input name="dob" id="dob" type="date" class="form-control">
+
+        <br/>
+
+        <label for="contact">Preferred Contact Method</label>
+        <select name="contact" id="contact" class="form-control">
+            <option id="phone" value="PHONE">Phone</option>
+            <option id="piazza" value="PIAZZA">Piazza</option>
+            <option id="mail" value="EMAIL">Email</option>
+        </select>
+
+        <label>Favorite Color</label>
+        <br/>
+        <label>
+            <input name="favoriteColor" id="favColorYellow" type="radio" value="yellow">
+            Yellow
+        </label><br/>
+        <label>
+            <input name="favoriteColor" id="favColorBlue" type="radio" value="blue">
+            Blue
+        </label><br/>
+        <label>
+            <input name="favoriteColor" id="favColorRed" type="radio" value="red">
+            Yellow
+        </label><br/>
+
+        <button id="submit" class="btn btn-block btn-primary">
+            Submit
+        </button>
+
+    </form>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="users.html">Users</a></li>
+    </ul>
+
+</body>
+</html>

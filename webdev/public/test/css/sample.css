@@ -1,0 +1,16 @@
+p {
+    background-color: green;
+}
+
+.yellowBg {
+    background-color: yellow;
+}
+
+#intro {
+    background-color: grey;
+}
+
+#second {
+    color: red;
+    background-color: blue;
+}
