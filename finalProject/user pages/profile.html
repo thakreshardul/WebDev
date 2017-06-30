@@ -4,13 +4,42 @@
     <meta charset="UTF-8">
     <title>Profile</title>
     <link href="../css/bootstrap.css" rel="stylesheet"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="row">
-    <nav class="navbar navbar-inverse navbar-header">
-        test
-    </nav>
+<div class="container">
+        <nav class="navbar navbar-background">
+            <div class="row container-fluid">
+                <div class="col-xs-12">
+                    <div class="navbar-text pull-left">
+                        <b>Profile</b>
+                    </div>
+                    <div class="navbar-text pull-right">
+                        <a href=#>
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <div class="row container-fluid">
+    <div class="form-group">
+        <form id="profile" class="form-group">
+            <label for="username">Username</label>
+            <input id="username" type="text" class="form-control" placeholder="sthakre"/>
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" placeholder="thakreshardul@gmail.com"/>
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" class="form-control" placeholder="Shardul"/>
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text" class="form-control" placeholder="Thakre"/>
+
+            <button id="websites" class="btn btn-block btn-primary" type="submit">Websites</button>
+            <a href="register.html" id="register" class="btn btn-block btn-danger">Logout</a>
+        </form>
+    </div>
+    </div>
 </div>
 </body>
 </html>

@@ -1,5 +1,8 @@
-.navbar-fixed-top {
-    background-color: #0275d8;
+.navbar-background {
     color: white;
-    position: fixed;
+    background-color: #2b669a;
+}
+
+.glyphicon-ok {
+    color: white;
 }
