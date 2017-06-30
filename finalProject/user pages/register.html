@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Register</title>
     <link href="../css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
@@ -17,11 +17,12 @@
             </div>
             <div class="col-sm-4">
                 <h1>Login</h1>
-                <form id="loginform" method="post" action="/path/to/loginAction">
+                <form id="registerForm" method="post" action="/path/to/registerAction">
                     <input id="usrname" class="form-control" type="text" placeholder="username"/>
                     <input id="pwd" class="form-control" type="password" placeholder="password"/>
-                    <button id="login" class="btn btn-block btn-primary" type="submit">Login</button>
-                    <a href="register.html" id="register" class="btn btn-block btn-success">Register</a>
+                    <input id="confirmPwd" class="form-control" type="password" placeholder="verify password"/>
+                    <button id="register" class="btn btn-block btn-primary" type="submit">Register</button>
+                    <a href=# class="btn btn-block btn-danger">Cancel</a>
                 </form>
             </div>
         </div>
