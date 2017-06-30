@@ -1,18 +1,46 @@
 .navbar-background {
-    color: white;
     background-color: #2b669a;
+    font-weight: bold;
 }
 
-.glyphicon-ok {
+.row {
+    margin: 0px;
+}
+
+.custom-list {
+    color: #2b669a;
+    font-weight: bold;
+    border: none;
+}
+
+.list-div {
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.border {
+    border-right: 1px solid #ddd;
+}
+
+.ok-margin{
+    margin-right: 0px;
+}
+
+.glyphicon-ok ,
+.navbar-background,
+.glyphicon-user,
+.glyphicon-chevron-left,
+.glyphicon-plus {
     color: white;
 }
 
-.glyphicon-user {
-    color: white;
-}
-
-.form-adjust {
-    margin-top:50px;
+.adjust {
+    margin-top:70px;
     margin-bottom: 50px;
 }
 
