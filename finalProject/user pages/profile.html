@@ -8,9 +8,9 @@
     <link href="../css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="container">
-        <nav class="navbar navbar-background">
-            <div class="row container-fluid">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-background navbar-fixed-top">
                 <div class="col-xs-12">
                     <div class="navbar-text pull-left">
                         <b>Profile</b>
@@ -21,25 +21,41 @@
                         </a>
                     </div>
                 </div>
+            </nav>
+        </div>
+        <div class="row container-fluid">
+            <div class="form-group">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <form id="profile" class="form-adjust">
+                        <label for="username">Username</label>
+                        <input id="username" type="text" class="form-control" placeholder="sthakre"/>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" class="form-control" placeholder="thakreshardul@gmail.com"/>
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" type="text" class="form-control" placeholder="Shardul"/>
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" type="text" class="form-control" placeholder="Thakre"/>
+                        &nbsp;
+                        <button id="websites" class="btn btn-block btn-primary" type="submit">Websites</button>
+                        <a href="register.html" id="register" class="btn btn-block btn-danger">Logout</a>
+                    </form>
+                </div>
+                <div class="col-sm-3"></div>
             </div>
-        </nav>
-    <div class="row container-fluid">
-    <div class="form-group">
-        <form id="profile" class="form-group">
-            <label for="username">Username</label>
-            <input id="username" type="text" class="form-control" placeholder="sthakre"/>
-            <label for="email">Email</label>
-            <input id="email" type="email" class="form-control" placeholder="thakreshardul@gmail.com"/>
-            <label for="firstName">First Name</label>
-            <input id="firstName" type="text" class="form-control" placeholder="Shardul"/>
-            <label for="lastname">Last Name</label>
-            <input id="lastname" type="text" class="form-control" placeholder="Thakre"/>
+        </div>
+        <div class="row container-fluid">
+            <nav class="navbar navbar-background navbar-fixed-bottom">
+                <div class="row container-fluid">
+                    <div class="navbar-text pull-right">
+                        <a href=#>
+                            <span class="glyphicon glyphicon-user"></span>
+                        </a>
+                    </div>
+                </div>
 
-            <button id="websites" class="btn btn-block btn-primary" type="submit">Websites</button>
-            <a href="register.html" id="register" class="btn btn-block btn-danger">Logout</a>
-        </form>
+            </nav>
+        </div>
     </div>
-    </div>
-</div>
 </body>
 </html>

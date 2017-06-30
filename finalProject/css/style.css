@@ -6,3 +6,17 @@
 .glyphicon-ok {
     color: white;
 }
+
+.glyphicon-user {
+    color: white;
+}
+
+.form-adjust {
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.container-border {
+    padding: 0;
+    border: 1px solid black;
+}
