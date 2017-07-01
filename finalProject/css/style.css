@@ -39,6 +39,17 @@
     color: white;
 }
 
+.pages-icon-color {
+    color: black;
+    font-weight: bold;
+}
+
+.user-icon-color {
+    color: #2b669a;
+    margin-right: 0px;
+}
+
+
 .adjust {
     margin-top:70px;
     margin-bottom: 50px;

@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>New Website</title>
-    <link href="../css/bootstrap.css" rel="stylesheet"/>
-    <link href="../css/style.css" rel="stylesheet"/>
+    <title>Website Edit</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-background navbar-fixed-top">
@@ -25,7 +25,7 @@
                 <a href=#><span class="glyphicon glyphicon-chevron-left"></span></a>
             </div>
             <div class="col-xs-10 navbar-text">
-                <b>New Website</b>
+                <b><Edit></Edit> Website</b>
             </div>
             <div class="col-xs-1 navbar-text pull-right ok-margin">
                 <a href=#>
@@ -34,6 +34,7 @@
             </div>
         </div>
     </nav>
+
     <div class="row container-fluid adjust ">
         <div class="col-sm-4 list-div border hidden-xs">
             <ul class="list-group adjust">
@@ -57,17 +58,20 @@
         </div>
         <div class="col-sm-8 col-xs-12 pull-right">
             <form id="newWebsite" class="adjust">
-                <label for="name"><b>Name</b></label>
+                <label for="name"><b>Website Name</b></label>
                 <input id="name" type="text" class="form-control" placeholder="Name">
                 &nbsp;
-                <label for="description"><b>Description</b></label>
+                <label for="description"><b>Website Description</b></label>
                 <textarea id="description" rows="3" class="form-control" placeholder="Description"></textarea>
+                &nbsp;
+                <button id="delete" class="btn btn-block btn-danger" type="submit">Delete</button>
             </form>
         </div>
     </div>
+
     <nav class="navbar navbar-background navbar-fixed-bottom">
         <div class="col-sm-1 navbar-text pull-right">
-            <a href=#><span class="glyphicon glyphicon-user"></span></a>
+            <a href=#><span class="glyphicon glyphicon-user user-icon-color"></span></a>
         </div>
     </nav>
 </body>
