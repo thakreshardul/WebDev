@@ -1,0 +1,15 @@
+h3 {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.full-screen  {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.for-columns {
+    height: 100%;
+}
