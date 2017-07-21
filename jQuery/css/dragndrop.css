@@ -5,11 +5,19 @@ h3 {
     white-space: nowrap;
     z-index: 2;
 }
+
+
+h1 {
+    z-index: 3;
+}
+
 .full-screen  {
     height: 100%;
     width: 100%;
     position: absolute;
 }
+
+
 .for-columns {
     height: 100%;
 }
