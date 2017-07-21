@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Widget Heading</title>
+    <title>Edit Page</title>
     <link href="../css/bootstrap.css" rel="stylesheet"/>
-    <link href="../css/style.css" rel="stylesheets"/>
+    <link href="../css/style.css" rel="stylesheet"/>
 </head>
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-text pull-left">
+        <a href=#><span class="glyphicon glyphicon-chevron-left pages-icon-color"></span></a>
+    </div>
+    <div class="col-xs-9 navbar-text pages-icon-color">
+        Edit Page
+    </div>
+    <div class="navbar-text pull-right">
+        <a href=#><span class="glyphicon glyphicon-ok pages-icon-color"></span></a>
+    </div>
+</nav>
+<div class="container-fluid">
+    <form id="newPage" class="adjust">
+        <label for="name" class="pages-icon-color">Name</label>
+        <input id="name" class="form-control" type="text" placeholder="Widget Name">
+        <label for="text" class="pages-icon-color">Title</label>
+        <input id="text" class="form-control" type="text" placeholder="Widget Text">
+        <label for="size" class="pages-icon-color">Size</label>
+        <input id="size" class="form-control" type="text" placeholder="Size">
+        &nbsp;
+        <button id="delete" class="btn btn-block btn-danger" type="submit">Delete</button>
+    </form>
+</div>
 
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="navbar-text pull-right">
+        <a href=#><span class="glyphicon glyphicon-user user-icon-color"></span></a>
+    </div>
+</nav>
 </body>
 </html>
